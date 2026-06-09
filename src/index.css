@@ -1,0 +1,15 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --gold: #C9A84C; --gold-light: #E8C97A; --gold-dark: #8B6914;
+  --black: #080808; --black-2: #0F0F0F; --black-3: #181818; --black-4: #222;
+  --white: #F5F0E8; --white-dim: rgba(245,240,232,0.65); --white-faint: rgba(245,240,232,0.12);
+}
+html { scroll-behavior: smooth; }
+body {
+  background: var(--black);
+  color: var(--white);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  line-height: 1.75;
+  overflow-x: hidden;
+}

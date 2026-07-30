@@ -33,15 +33,6 @@ const SOCIAL_LINKS = [
     ),
   },
   {
-    href: 'https://facebook.com/theedgeperformance',
-    label: 'Facebook',
-    icon: (
-      <svg width="16" height="16" viewBox="0 0 24 24" fill="#C9A84C" aria-hidden="true">
-        <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
-      </svg>
-    ),
-  },
-  {
     href: 'https://wa.me/352000000000',
     label: 'WhatsApp',
     icon: (
@@ -106,6 +97,7 @@ export default function Footer() {
             <li role="listitem"><a href="#offers">Edge Break</a></li>
             <li role="listitem"><a href="#offers">Edge Team Session</a></li>
             <li role="listitem"><a href="#offers">Edge Team Building</a></li>
+            <li role="listitem"><a href="#offers">Edge Morning Boost</a></li>
             <li role="listitem"><a href="#contact">Séance découverte</a></li>
           </ul>
         </div>

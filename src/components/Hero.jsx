@@ -2,7 +2,7 @@ import { motion, useScroll, useTransform } from 'framer-motion'
 import { useRef } from 'react'
 
 const STATS = [
-  { num: '+15', label: 'Années terrain' },
+  { num: '+10', label: 'Années terrain' },
   { num: '+30', label: 'Équipes managées' },
   { num: '3.5M€', label: 'CA en 5 ans' },
 ]
@@ -127,3 +127,4 @@ export default function Hero() {
     </>
   )
 }
+

@@ -41,8 +41,8 @@ export default function Founder() {
               <div className="fc fc-bl" aria-hidden="true" />
               <div className="fc fc-br" aria-hidden="true" />
             </div>
-            <div className="founder-badge" aria-label="15 ans d'expérience">
-              <div className="founder-badge-n">15+</div>
+            <div className="founder-badge" aria-label="10 ans d'expérience">
+              <div className="founder-badge-n">10+</div>
               <div className="founder-badge-l">Années</div>
             </div>
           </motion.div>
@@ -116,3 +116,4 @@ export default function Founder() {
     </>
   )
 }
+

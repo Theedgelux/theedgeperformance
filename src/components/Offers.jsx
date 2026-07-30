@@ -60,8 +60,25 @@ const offers = [
     featured: false,
     priceNote: 'Tarif selon groupe, durÃ©e et lieu d\'intervention',
   },
+  ,
+  {
+    num: '04',
+    name: 'EDGE MORNING BOOST',
+    sub: 'Sur demande | Séance matinale',
+    desc: "Démarrez la journée avec une énergie maximale. Une séance courte et intense pour activer le corps et l'esprit avant que la journée ne commence.",
+    goals: [
+      'Activer le corps dès le matin',
+      'Booster la concentration et la clarté mentale',
+      'Créer une dynamique positive en début de journée',
+      'Renforcer la cohésion avant les réunions clés',
+      'Idéal avant séminaires ou journées stratégiques',
+    ],
+    price: 'Sur demande',
+    priceUnit: 'Tarif selon format et groupe',
+    featured: false,
+    priceNote: 'Disponible sur demande uniquement',
+  }
 ]
-
 export default function Offers() {
   return (
     <>
@@ -142,4 +159,5 @@ export default function Offers() {
     </>
   )
 }
+
 

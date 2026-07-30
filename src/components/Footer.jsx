@@ -115,7 +115,7 @@ export default function Footer() {
           </div>
           <div className="footer-contact-item">
             <div className="footer-contact-label">Disponibilité</div>
-            <div className="footer-contact-val">Lundi — Vendredi, 7h–19h</div>
+            <div className="footer-contact-val">Lundi — Vendredi, 7h à 19h</div>
           </div>
           <motion.a
             href="#contact"
